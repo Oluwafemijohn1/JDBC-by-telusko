@@ -15,12 +15,12 @@ class JdbcDao {
          * To Add Student
          * */
         Student s2 = new Student();
-        s2.sName = "Tinal";
-        s2.rollNo = 5;
+        s2.sName = "Funmmi";
+        s2.rollNo = 6;
 
         dao.addStudent(s2);
 
-        dao.removeStudent(1);
+        dao.removeStudent(2);
 
         dao.closeConnection();
     }
